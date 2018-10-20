@@ -1,6 +1,4 @@
 <?php
-//$file = fopen('logs.txt', 'r');
-//private $log = '84.242.208.111- - [11/May/2013:06:31:00 +0200] "POST /chat.php HTTP/1.1" 200 354 "http://bim-bom.ru/" "Mozilla/5.0 (Windows NT 6.1; rv:20.0) Gecko/20100101 Firefox/20.0"';
 
 class Parser
 {
