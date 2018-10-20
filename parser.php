@@ -82,7 +82,7 @@ private function findMatches ($line) {
 preg_match($this->regex, $line, $matches);
 return $matches;
 }
-private function formatLine ($line) {
+private function parseLine ($line) {
         $logs = array();
         $logs = $this->findMatches($line);
         if (isset($logs)) {
